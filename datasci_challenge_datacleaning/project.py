@@ -67,7 +67,7 @@ df.groupby("diagnosis").mean()
 df.groupby("diagnosis").median()
 df.groupby("diagnosis").count()
 
-# there does not seen to be any extreme value although you would need a proffessional to give help make a decision 
+# there does not seen to be any extreme value although you would need a proffessional to help make a decision 
 
 # Direct Questions
 
@@ -133,6 +133,7 @@ for i, col in enumerate(col_three):
 sns.pointplot(data=df, x="diagnosis", y="radius_mean")
 
 plt.show()
+
 
 
 
